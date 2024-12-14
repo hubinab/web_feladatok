@@ -1,0 +1,122 @@
+header{
+    position: relative;
+}
+
+.background{
+    height: 350px;
+    background-image: url("../images/nyugati.jpg");
+    background-position: center; /* A háttérkép középre van igazítva */
+    background-size: cover; /* A háttérkép kitölti a teljes területet */
+    align-items: center; /* Függőleges középre igazítás */
+    justify-content: center; /* Vízszintes középre igazítás */
+}
+
+body{
+    margin: 0 0 1rem 0;
+}
+
+.head_text{
+    color:white;
+    font-size: 3rem;
+    text-align: center;
+    position: absolute;
+    text-shadow: 3px 3px 0 black;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+h2{
+    line-height: 1.5;
+    text-indent: 1.2cm;
+    text-transform: uppercase;
+}
+
+p{
+    text-indent: 1.2cm;
+}
+
+.forras{
+    text-align: right;
+}
+
+.forras a{
+    color: #2e5ea8;
+}
+
+.menu{
+    background-color: #ffd400;
+}
+
+nav ul{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+    box-shadow: 5px 5px 0 rgba(0 0 0.8);
+}
+
+#emlektabla{
+    width: 50%;
+    margin: auto;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #2e5ea8;
+    color: white;
+    text-align: center;
+    line-height: 3rem;
+    margin: 0 -1rem -2rem -1rem;
+}
+
+.metro{
+    list-style-image: url("../images/bkk-metro-symbol.png");
+}
+
+.busz{
+    list-style-image: url("../images/bkk-bus-symbol.png");
+}
+
+.troli{
+    list-style-image: url("../images/bkk-trolley-symbol.png");
+}
+
+.villamos{
+    list-style-image: url("../images/bkk-tram-symbol.png");
+}
+
+.ejszakai{
+    list-style-image: url("../images/bkk-night-symbol.png");
+}
+
+#felujitas{
+    width: 350px;
+    float: right;
+    margin: 0 1em 1em 1em;
+    background-color: lightgray;
+    border: 2px double black;
+    padding: 1em;
+}
+
+#felujitas h2{
+    margin-top: 0;
+}
+

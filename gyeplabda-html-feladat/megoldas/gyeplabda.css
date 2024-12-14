@@ -1,0 +1,49 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: #5588db;
+}
+
+#oldal {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #122e8c;
+    background-color: lightgray;
+    padding: 1rem;
+}
+
+.olimpia {
+    width: 300px;
+    float: right;
+    background: white;
+    padding: 3px;
+    box-shadow: rgba(0, 0, 0, 0.331) 5px 5px;
+    margin-left: .5rem;
+    border: 1px solid #122e8c;
+}
+
+.olimpia img {
+    width: 100%;
+}
+
+.olimpia p {
+    margin: .5rem;
+    text-align: center;
+}
+
+#oldal > img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%;
+}
+
+#oldal > p:last-of-type {
+    text-align: right;
+}
+
+#oldal > div:last-of-type {
+    text-align: center;
+}

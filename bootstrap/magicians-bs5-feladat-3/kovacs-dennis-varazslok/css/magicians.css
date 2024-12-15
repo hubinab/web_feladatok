@@ -1,0 +1,50 @@
+body{
+    background-color: #579394;
+}
+header{
+    height: 300px;
+    background-image: url('../img/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: #1b2f3a;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.grossman{
+    width: 70%;
+    border-radius: 30px;
+    border: 3px solid #579394; 
+    margin: 1rem auto 1rem auto;
+}
+.grossman img{
+    width: 170px;
+    float: right;
+}
+.nev{
+    font-variant: small-caps;
+}
+li{
+    line-height: 2.5rem;
+}
+th,tr,td{
+    border: 1px solid #579394;
+}
+h1,h2{
+    color: #579394;
+}
+h1{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+h2{
+    border-bottom: 1px dashed #579394;
+}
+a:hover{
+    color: red;
+}
+a{
+    color: #579394;
+}
